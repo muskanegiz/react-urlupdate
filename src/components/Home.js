@@ -9,7 +9,7 @@ const Home = (props) => {
                     <h1 className="font-bold flex align-center text-center text-xl">Home Component </h1>
                 </div>
                 <div className="ml-96">
-                    <ShoppingCartIcon className="w-9 flex" />
+                    <ShoppingCartIcon className="w-9 flex"/>
                     <span>{props.data.length}</span>
                 </div>
             </div>
