@@ -5,7 +5,8 @@ import Main from './component/Main';
 import HomeContainer from "././containers/HomeContainer";
 import Counter from "./Highordercomponent/Count";
 import Cycle from "./lifecomponent/Cycle";
-
+import Hook from './hook/Allhook';
+import Get from './api/getapi';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,8 @@ function App() {
         <Route path ="/home" element={ <HomeContainer/>} exact></Route>
         <Route path ="/count" element={ <Counter/>} exact></Route>
         <Route path ="/lifecycle" element={ <Cycle/>} exact></Route>
+        <Route path ="/hook" element={ <Hook/>} exact></Route>
+        <Route path ="/api" element={ <Get/>} exact></Route>
       </Routes>
     </div>
   );

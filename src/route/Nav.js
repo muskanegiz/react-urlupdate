@@ -29,13 +29,20 @@ const Nav = () => {
                                         class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Data
                                     </Link>
                                     <Link to="/home"
-                                         class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Product
+                                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Product
                                     </Link>
                                     <Link to="/count"
-                                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</Link>
-
+                                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects
+                                    </Link>
                                     <Link to="/lifecycle"
-                                     class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">LifeCycle</Link>
+                                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">LifeCycle
+                                    </Link>
+                                    <Link to="/hook"
+                                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Hook
+                                    </Link>
+                                    <Link to="/api"
+                                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Api
+                                    </Link>
                                 </div>
                             </div>
                         </div>
